@@ -112,4 +112,6 @@ As soon as possible.
 ### Coding style.
 
 The naming convention of functions and classes follow the camelCase and the PascalCase conentions respectively.
-public function sumTwoNumbers() {}, class UserProfile {}. The variable names, must reflect the data they hold. $userInformation.
+`public function sumTwoNumbers() {}`, `class UserProfile {}`. The variable names, must reflect the data they hold. `$userInformation`. 
+**Avoid the use of underscores as word separators**. This extends to things like CSS class names, IDs in test HTML documents, everything. 
+The file names unless it represents a class, it should be named in camelCase. 
